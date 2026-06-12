@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ar">
+
+<head>
+    <!-- <style>
+        tbody {
+            background-color: #e4f0f5;
+        }
+
+        tbody > tr > td:last-of-type {
+            width: 60px;
+            text-align: center;
+        }
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(140 140 140);
+            font-family: sans-serif;
+            font-size: 0.8rem;
+            letter-spacing: 1px;
+        }
+
+        td {
+            border: 1px solid rgb(160 160 160);
+            padding: 8px 10px;
+        }
+
+    </style> -->
+    <style>
+        #invoice {
+            padding: 20px 20px;
+        }
+
+        header>a>img {
+
+            width: 25%;
+            height: 25%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- header information -->
+    <div class="header">
+        <h1 id="invoice">Invoice # 1</h1>
+        <a href="#" alt="logo">
+            <img src="logo.jpeg" alt="logo">
+        </a>
+        <p>date</p>
+    </div>
+    <!-- buyer information -->
+    <div class="buyer-info">
+        <h3> buyer information</h3>
+        <h3>name</h3>
+    </div>
+    <!-- customer information -->
+    <div class="customer-info">
+        <h3> customer information</h3>
+        <h3>name</h3>
+
+    </div>
+    <!-- goods container -->
+    <div>
+        <table style="border: 0px;">
+            <!-- first row contains column headers-->
+            <tr>
+                <!-- column headers conatins sections-->
+                <th>product id</th>
+
+                <th>quantity</th>
+                <th>unit price</th>
+
+            </tr>
+            <!-- second row contains sample data -->
+            <tr>
+                <!-- sample data for each column -->
+                <td>1</td>
+
+                <td>1</td>
+                <td>100</td>
+
+            </tr>
+        </table>
+    </div>
+    <!-- footer information -->
+    <div class="footer-sales">
+        <h3>sub total</h3>
+        <h3>tax</h3>
+        <h3>-------------------------------</h3>
+        <h3>total due</h3>
+        <h3>-----------------------</h3>
+    </div>
+
+</body>
+
+</html>
